@@ -1,13 +1,15 @@
 @extends ('layout')
 
 @section ('content')
-    <div class="ganon">
+    <div class="page-text-container">
         @foreach ($pages as $page)
-            <p>{{ $page->title }}</p>
             <br>
-            <hr>
+            <p class="ganon">{{ $page->title }}</p>
             <br>
-            <p>{{ $page->body }} </p>
+            <br>
+            <br>
+            <p class="ganon">{{ $page->body }} </p>
+            <br>
         @endforeach
     </div>
 @endsection

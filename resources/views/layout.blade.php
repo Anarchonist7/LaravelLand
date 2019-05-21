@@ -4,7 +4,7 @@
 
 <head>
     <title>My Application</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" >
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}" >
 </head>
 
 <body>

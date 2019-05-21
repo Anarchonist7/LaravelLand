@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Ganondorf</title>
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" >
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}" >
     </head>
     <body>
         <p>SHALLOM!!!!</p>

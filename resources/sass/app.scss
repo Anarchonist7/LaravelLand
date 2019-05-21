@@ -1,18 +1,12 @@
 
 body {
-    /*background-image: url("https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif");*/
-    background-color: grey;
+    background-image: url("https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif");
 }
 
 a {
     color: inherit;
 }
-
-p.ganon {
-    color: white;
-    background-color: black;
-}
-/*.navbar-laravel {
+.navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
@@ -21,6 +15,10 @@ p.ganon {
     width: 50px;
     background-image: url("https://media.giphy.com/media/3oxHQe0qOEPR5I2cx2/giphy.gif");
     color: white;
+}
+
+.page-text-container {
+    background-color: grey;
 }
 
 .cool-link {
@@ -46,4 +44,3 @@ p.ganon {
         background-position: 0 50%;
     }
 }
-*/
