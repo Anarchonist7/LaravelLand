@@ -14,7 +14,7 @@
 
 Route::get('/ganondorf', 'GanondorfController@index');
 
-Route::get('ganondorf/{shitter}', 'GanondorfController@show');
+Route::get('ganondorf/{dorf}', 'GanondorfController@show');
 
 Route::get('/', 'PagesController@index');
 

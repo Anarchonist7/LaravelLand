@@ -7,7 +7,7 @@
     </head>
     <body>
         <p>SHALLOM!!!!</p>
-        <p class="ganon">Well I'll be shittered! Yes I would be</p>
+        <p class="ganon">Well I'll be! Yes I would be</p>
         <!-- <img src=https://www.ssbwiki.com/images/3/32/Ganondorf-Victory3-SSBM.gif /> -->
         <a href="/">You are not yet ready for this darkness, begone child!</a>
         <ul class='ganon'>
