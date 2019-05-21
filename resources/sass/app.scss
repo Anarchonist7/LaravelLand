@@ -1,12 +1,18 @@
 
 body {
-    background-image: url("https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif");
+    /*background-image: url("https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif");*/
+    background-color: grey;
 }
 
 a {
     color: inherit;
 }
-.navbar-laravel {
+
+p.ganon {
+    color: white;
+    background-color: black;
+}
+/*.navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
@@ -40,3 +46,4 @@ p.ganon {
         background-position: 0 50%;
     }
 }
+*/

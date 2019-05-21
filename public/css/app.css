@@ -1,56 +1,50 @@
 body {
-  background-image: url("https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif");
+  /*background-image: url("https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif");*/
+  background-color: grey;
 }
 
 a {
   color: inherit;
 }
 
-.navbar-laravel {
+p.ganon {
+  color: white;
+  background-color: black;
+}
+
+/*.navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-.ganon {
-  background-image: url("https://media.giphy.com/media/3oxHQe0qOEPR5I2cx2/giphy.gif");
-  color: white;
+p.ganon {
+    width: 50px;
+    background-image: url("https://media.giphy.com/media/3oxHQe0qOEPR5I2cx2/giphy.gif");
+    color: white;
 }
 
 .cool-link {
-  -webkit-animation: flow 30s ease-in-out infinite;
-          animation: flow 30s ease-in-out infinite;
-  background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752);
-  background-size: 300%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+    animation: flow 30s ease-in-out infinite;
+    background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752);
+    background-size: 300%;
 
-@-webkit-keyframes flow {
-  0% {
-    background-position: 0 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0 50%;
-  }
+        -webkit-background-clip: text;
+                 background-clip: text;
+            -webkit-text-fill-color: transparent;
 }
 
 @keyframes flow {
-  0% {
-    background-position: 0 50%;
-  }
+    0% {
+        background-position: 0 50%;
+    }
 
-  50% {
-    background-position: 100% 50%;
-  }
+    50% {
+        background-position: 100% 50%;
+    }
 
-  100% {
-    background-position: 0 50%;
-  }
+    100% {
+        background-position: 0 50%;
+    }
 }
+*/
 
