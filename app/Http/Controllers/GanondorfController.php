@@ -11,18 +11,18 @@ class GanondorfController extends Controller
 
     {
 
-        $shitters = Comment::all();
+        $dorfs = Comment::all();
 
 
-        return view('ganondorf', compact('shitters'));
+        return view('ganondorf', compact('dorfs'));
 
     }
 
-    public function show(Comment $shitter)
+    public function show(Comment $dorf)
 
     {
 
-        return view('show', compact('shitter'));
+        return view('show', compact('dorf'));
 
     }
 

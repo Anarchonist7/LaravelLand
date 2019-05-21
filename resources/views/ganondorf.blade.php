@@ -11,8 +11,8 @@
         <!-- <img src=https://www.ssbwiki.com/images/3/32/Ganondorf-Victory3-SSBM.gif /> -->
         <a href="/">You are not yet ready for this darkness, begone child!</a>
         <ul class='ganon'>
-            @foreach ($shitters as $shitter)
-                <li class="cool-link"><a href="/ganondorf/{{$shitter->id}}">{{ $shitter->body }}</a></li>
+            @foreach ($dorfs as $dorf)
+                <li class="cool-link"><a href="/ganondorf/{{$dorf->id}}">{{ $dorf->body }}</a></li>
             @endforeach
         </ul>
     </body>

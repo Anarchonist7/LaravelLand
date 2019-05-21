@@ -6,6 +6,6 @@
     <title>dorf</title>
 </head>
 <body>
-    <h1 class="ganon"> {{ $shitter->body }} </h1>
+    <h1 class="ganon"> {{ $dorf->body }} </h1>
 </body>
 </html>
