@@ -1,11 +1,6 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Ganondorf</title>
-        <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}" >
-    </head>
-    <body>
+@extends ('layout')
+
+@section ('content')
         <p>SHALLOM!!!!</p>
         <p class="ganon">Well I'll be! Yes I would be</p>
         <!-- <img src=https://www.ssbwiki.com/images/3/32/Ganondorf-Victory3-SSBM.gif /> -->
@@ -15,6 +10,4 @@
                 <li class="cool-link"><a href="/ganondorf/{{$dorf->id}}">{{ $dorf->body }}</a></li>
             @endforeach
         </ul>
-    </body>
-
-    <html>
+@endsection

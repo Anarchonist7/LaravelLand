@@ -4,7 +4,11 @@
 
 <head>
     <title>My Application</title>
-    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}" >
+    @if (env('APP_ENV') === 'production')
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}" >
+    @else
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" >
+    @endif
 </head>
 
 <body>

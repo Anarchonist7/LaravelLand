@@ -1,5 +1,6 @@
 body {
   background-image: url("https://media.giphy.com/media/IeCVaFnmXFpjq/giphy.gif");
+  /*background-color: rgba(218, 0, 131, 0.3);*/
 }
 
 a {
@@ -15,12 +16,18 @@ p.ganon {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 10px;
   background-image: url("https://media.giphy.com/media/3oxHQe0qOEPR5I2cx2/giphy.gif");
   color: white;
 }
 
-.page-text-container {
-  background-color: grey;
+div.page-text-container {
+  background-color: rgba(218, 0, 131, 0.3);
+  /*background-color: white !important;*/
+  padding: 10px;
+  color: white;
+  border: 5px solid purple;
+  margin: 20px;
 }
 
 .cool-link {
