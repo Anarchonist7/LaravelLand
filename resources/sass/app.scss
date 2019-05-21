@@ -12,7 +12,7 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-p.ganon {
+.ganon {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -21,13 +21,19 @@ p.ganon {
     color: white;
 }
 
-div.page-text-container {
+.page-text-container {
     background-color: rgba(218, 0, 131, 0.3);
     /*background-color: white !important;*/
     padding: 10px;
     color: white;
     border: 5px solid purple;
     margin: 20px;
+
+    h3 {
+        font-weight: bold;
+        color: white;
+        font-style: serif;
+    }
 
 }
 
