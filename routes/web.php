@@ -20,6 +20,8 @@ Route::get('/', 'PagesController@index');
 
 Route::get('/pages/create', 'PagesController@create');
 
+Route::get('/pages/show', 'PagesController@show');
+
 Route::post('/pages', 'PagesController@store');
 
 // Route::get('/', function () {

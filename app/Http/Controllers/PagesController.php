@@ -29,6 +29,12 @@ class PagesController extends Controller
 
     {
 
+        $this->validate(request(), [
+            'title' => 'required',
+
+            'body' => 'required'
+        ]);
+
         $page = new \App\Pages;
 
         $page->title = request('title');
@@ -36,7 +42,17 @@ class PagesController extends Controller
 
         $page->save();
 
+
         return redirect('/');
+
+    }
+
+    public function show()
+
+    {
+        $pages = \App\Pages::all();
+
+        return view ('pages.show', compact('pages'));
 
     }
 }

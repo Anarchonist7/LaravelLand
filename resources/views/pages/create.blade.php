@@ -16,6 +16,17 @@
 <br>
 <br>
         <button type='submit'>Confirm Creation</button>
+
+        @if (count($errors))
+            <div class='ganon'>
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
     </form>
 
 @endsection
