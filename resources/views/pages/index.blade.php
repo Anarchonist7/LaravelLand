@@ -2,5 +2,8 @@
 
 @section ('content')
     <p class="ganon">dorfssss</p>
-    <a href="/pages/show">Here beee yeee pages</a>
+    <br>
+    <a class="ganon" href="/pages/show">Here beee yeee pages</a>
+    <br>
+    <a class="ganon" href=/pages/create">Create a page, if yee dare</a>
 @endsection
