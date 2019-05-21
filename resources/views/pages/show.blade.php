@@ -1,7 +1,7 @@
 @extends ('layout')
 
 @section ('content')
-    <div class="page-text-container">
+    <div>
         @foreach ($pages as $page)
             <br>
             <p class="ganon">{{ $page->title }}</p>
