@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div class="sidebar">Sidebar</div>
     @yield('content')
     <a href="/ganondorf">Dream of Dorf</a>
 </body>
